@@ -1,0 +1,82 @@
+.cell {
+    font-size: 11px;
+}
+
+div.days, div.active, div.not_active {
+    float: left;
+    width: 23px;
+    height: 23px;
+    border: solid 1px;
+    border-color: #343449;
+    text-align: center;
+    z-index: 5;
+}
+
+#calendar{
+    width: 175px;
+    height: 202px;
+    border: solid 1px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0px;
+    margin-top:auto;
+    bottom:0;
+    margin-bottom:auto;
+}
+
+#header {
+    width: 174px;
+    height: 25px;
+    position: relative;
+    background: rgb(125, 142, 196);
+    float: inherit;
+    border: solid 1px;
+}
+
+#daysHeader {
+    width: 175px;
+    height: 25px;
+    position: relative;
+    float: inherit;
+}
+
+#img-left, #img-right {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: left;
+}
+
+#month {
+    border: none;
+    width: 123px;
+    height: 25px;
+    float: left;
+    text-align: center;
+}
+
+.days {
+    background: #9D91B7 ;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.data {
+    border: none;
+    width: 175px;
+    height: 125px;
+}
+.active {
+    background-color: rgb(125, 142, 196);
+}
+.active:hover {
+    background-color: rgb(212, 214, 219);
+}
+.not_active {
+    background: #EFE6EA;
+}
+
+.not_active:active {
+}
